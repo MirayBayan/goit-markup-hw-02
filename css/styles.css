@@ -7,9 +7,14 @@ body {
   font-family: Raleway, sans-serif;
   color: #2e2f42;
   text-decoration: none;
+  font-size: 18;
+  font-weight: bold;
 }
 .logo span {
   color: #4d5ae5;
+}
+.menu .menu-ul .menu-item {
+  list-style-type: none;
 }
 .menu .menu-ul .menu-item .link {
   color: #2e2f42;
@@ -28,6 +33,9 @@ body {
 .menu .menu-ul .menu-item .links:active {
   color: #404bbf;
   text-decoration: underline;
+}
+.adres .adres-ul .adres-item {
+  list-style-type: none;
 }
 .adres .adres-ul .adres-item .adres-a {
   color: #434455;
@@ -48,4 +56,29 @@ button {
 }
 button:hover {
   background-color: #404bbf;
+}
+.section-1 {
+  background-color: #2e2f42;
+  color: #ffffff;
+  height: 600px;
+}
+.section-2 .section-2-ul .section-2-ul-item {
+  list-style-type: none;
+}
+.section-3 {
+  background-color: #f4f4fd;
+}
+.section-3 .section-3-ul .section-3-ul-item {
+  list-style-type: none;
+}
+.section-4 .section-4-ul .section-4-ul-item {
+  list-style-type: none;
+}
+footer {
+  background-color: #2e2f42;
+  height: 312px;
+  color: #f4f4fd;
+}
+.footer .logo {
+  color: #ffffff;
 }
